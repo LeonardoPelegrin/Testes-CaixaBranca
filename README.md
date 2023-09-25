@@ -21,4 +21,9 @@ Sim a Arquitetura foi devidamente respeitada, o Código não apresenta nenhum er
 ## As conexões utilizadas foram fechadas?
 No código a conexão com o Banco de Dados não foi fechada, Como por exemplo pelo uso do "Finally" que é recomendado para garantir o fechamento de conexões. 
 
+## Possiveis Erros no Código
+1- injeção do SQL
+2- Fechamento do Banco de Dados (Finally)
+3-  Exceções de(erros)
+
 ## Ultima Atualização 25/09/2023
